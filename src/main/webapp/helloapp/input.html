@@ -1,17 +1,26 @@
 <!DOCTYPE html>
 <html>
-<head><title>参数传递</title>
+<head>
   <meta charset="UTF-8">
+  <title>Login Page</title>
 </head>
 <body>
-<center>
-  <h3>从表单向Servlet传递参数</h3>
-  <form method="GET" action="/paramtest">
-    姓名：<input type="text" name="name"><br>
-    年龄：<input type="text" name="age"><br>
-    <input type="submit" value="确定">
-    <input type="reset" value="重置">
-  </form>
-  <center>
+<form action="/firstservlet" method="post">
+  <table width="298" border="0" align="center"
+         cellpading="2" cellspacing="1">
+    <tr>
+      <td align="right">学号：</td>
+      <td align="left"><input type="text" name="snumber" size="15"></td>
+    </tr>
+    <tr>
+      <td align="right">姓名：</td>
+      <td><input type="text" name="sname" size="15"></td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center"><input type="submit" value="登录">
+        &nbsp; <input type="reset" value="取消"></td>
+    </tr>
+  </table>
+</form>
 </body>
 </html>

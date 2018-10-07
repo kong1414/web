@@ -53,5 +53,26 @@
         <url-pattern>/showheaders.do</url-pattern>
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>firstServlet</servlet-name>
+        <servlet-class>com.kongww.web.servlet.FirstServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>firstServlet</servlet-name>
+        <url-pattern>/firstservlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>secondServlet</servlet-name>
+        <servlet-class>com.kongww.web.servlet.SecondServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>secondServlet</servlet-name>
+        <url-pattern>/secondservlet</url-pattern>
+    </servlet-mapping>
+
+
     <!--结束实验2-->
 </web-app>
