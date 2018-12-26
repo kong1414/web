@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<taglib xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://java.sun.com/xml/ns/j2ee"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee
+    http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+        version="2.0">
+    <description>A Simple Taglib File.</description>
+    <tlib-version>1.0</tlib-version>
+    <short-name>Simple Tag Library</short-name>
+    <uri>http://www.mydomain.com/function</uri>
+    <function>
+        <description>Adding two numbers</description>
+        <name>add</name>
+        <function-class>com.kongww.web.pojo.Compute</function-class>
+        <function-signature>
+            int add( java.lang.String, java.lang.String)
+        </function-signature>
+    </function>
+</taglib>
